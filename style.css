@@ -1,0 +1,124 @@
+/* moved css here*/
+body{ font-family: Verdana;
+    background-color: rgb(253, 135, 192);}
+    
+    
+    
+     #image1 {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:1016px;
+     }
+     
+     a{
+         display:inline-block;
+         width:296px;
+         height:30px;
+         text-decoration:none ;
+         text-align: center;
+         color:black ;
+    
+     }
+    
+     a {
+        display: inline-block;
+        text-align: center;
+        padding: 5px 5px;
+        width: 320px;
+        height: 30px;
+        border-right:1px solid black;
+        font-weight: 600;
+        }
+        /*make sure the last border divider is not showing*/
+        a:last-child{ border-right:none;}
+     
+    
+    
+      img{
+         float:left;
+         margin-left: 2px;
+     }
+    
+     p{font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;}
+     .container{
+         overflow: hidden;
+         background-color: rgb(253, 190, 220);
+         width:1016px;
+         margin: 0 auto;
+     }
+    
+     .title{
+         position: absolute;
+         top: 35%;
+         background-color: rgba(255, 255, 255, 0);
+         width: 80%;
+         text-align: center;  
+         font-size: 80px;
+         
+    }
+    /*added a different h2*/
+    h2{margin: 0px;
+        padding: 10px;}
+    
+     .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -700%);
+    
+    
+    }
+    h1{margin: 0px;
+    padding: 10px;
+    background-color: rgb(253, 190, 220);}
+    
+    /*make sure list is a light away from the edge page*/
+    .facts{padding: 10px;}
+    
+    .contact{padding:10px;}
+    
+    /*different css rule set to each imput in forms*/
+    #fullname{width: 95%;
+     border: 1px solid pink;}
+    
+     #fullemail{width: 95%;
+        border: 1px solid pink;}
+    
+    .message{width: 95%;
+    height: 100px;
+    border: 1px solid pink;
+    resize: none;
+    font-family: Verdana;}
+    
+    /*move border of form a little away from the edge*/
+    fieldset{margin-left: 10px;
+         margin-right: 10px;
+         border: 1px solid black;}
+    
+    .button{background-color: rgb(253, 190, 220);
+         border: 1px solid black;
+     padding: 10px;}
+    
+    
+    
+    
+    .fact{
+    padding: 0px;
+    margin-left: -15px;
+    }
+    
+    
+    footer{
+    padding: 30px;
+    left: 0%;
+    right: 0%;
+    width:95% ;
+    text-align: right;
+    font-weight: 545;
+    }
+    
+    
+    
